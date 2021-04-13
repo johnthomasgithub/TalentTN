@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+  letter-spacing: 0.6px;
+}
+#about {
+  margin-top: -40px;
+}
+.text2 {
+  font-size: 1.4vw !important;
+  text-align: center;
+  width: 100vw;
+  padding-left: 4%;
+  opacity: 0.9;
+  font-weight: normal !important;
+  padding-right: 4%;
+}
+.cont {
+  padding: 0 100px;
+}
+.color-black {
+  color: #000000;
+}
+.about {
+  margin-left: 10%;
+  width: 24%;
+  padding-right: 15%;
+  font-size: 40px;
+  color: #000000;
+}
+.contn {
+  margin-top: 90px;
+  margin-bottom: 146px;
+}
+.about-txt {
+  width: 55%;
+  font-size: 1.4vw !important;
+  margin-left: 20px;
+  padding-right: 8px;
+  text-align: justify;
+  opacity: 0.9;
+  color: #000000;
+}
+.core-cont {
+  flex-direction: row;
+  background-color: rgba(116, 211, 11, 0.05);
+  width: 90%;
+  margin: auto;
+  border-radius: 60px;
+}
+.core-text {
+  margin-top: 147px;
+  margin-left: 5%;
+  font-size: 3vw;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #000000;
+}
+.img {
+  border-radius: 10px;
+  width: 170px;
+  height: 170px;
+}
+.member {
+  font-size: 14px;
+  margin: 4px 0 1px 0;
+  font-weight: 500;
+  color: #000000;
+}
+.dest {
+  opacity: 0.5;
+  color: #000000;
+  font-size: 14px;
+}
+.padding {
+  margin: 0 10px 5px 20px;
+}
+.mar-top-108 {
+  margin-left: 36px;
+  margin-top: 108px;
+}
+.button {
+  margin-top: 3rem;
+  font-size: 11px;
+  font-weight: 600;
+  border: none;
+  padding: 20px 20px 19px;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #000000;
+  margin-bottom: 35px;
+}
+
+@media all and (max-width: 800px) {
+  body {
+    padding-top: 110px !important;
+  }
+  .contn {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1% 0 1% 1%;
+    margin-bottom: 20px;
+  }
+  .about-txt {
+    text-align: justify;
+    width: 90%;
+    margin: 0;
+    font-size: 3vw !important;
+    padding: 0;
+  }
+  .cont {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text1 {
+    font-size: 33px !important;
+  }
+  .text2 {
+    font-size: 3vw !important;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .text2 br {
+    display: none;
+  }
+  .about {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+  }
+  .core-cont {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .core-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  .mar-top-108 {
+    margin-top: 40px;
+  }
+  .button {
+    min-width: 50%;
+    padding: 10px;
+  }
+  .padding {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 0;
+  }
+  .mar-top-108 {
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 800px) {
+  .about-txt {
+    /* margin-left: 10px; */
+    padding-left: 2%;
+  }
+}
+@media all and (max-width: 480px) {
+  .padding {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .about-txt{
+    padding: 0 7px 0 7px;
+  } */
+}

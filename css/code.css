@@ -1,0 +1,61 @@
+body{
+    padding-top: 100px;
+}
+.head , .head-terms{
+    font-size: 4.5vw;
+    text-align: center;
+    font-weight: 600;
+}
+.head-terms {
+  font-size: 4vw;
+}
+.code-points {
+    padding-bottom: 8px;
+}
+.code-points h5 {
+    font-size: 1.8vw;
+    font-weight: bolder;
+}
+.code-points p {
+    font-size: 1.3vw;
+    color: black;
+}
+.container {
+    min-width: 100vw; 
+    margin-top: 50px;
+    line-height: 1.5;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+}
+@media all and (max-width:768px){
+    body {
+        padding-top: 90px;
+        min-height: 100%; 
+    }
+    footer {
+     margin-top: 70px;
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .head {
+        font-size: 8vw;
+    }
+    .head-terms {
+        font-size: 7vw;
+    }
+    .code-points h5 {
+        font-size: 3.5vw;
+    }
+    .code-points p {
+        font-size: 2.5vw;
+    }
+}
+@media all and (min-height:1000px){
+    footer{
+        margin-top: 200px;
+        margin-bottom: 0;
+        
+    }
+ }
